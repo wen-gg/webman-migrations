@@ -1,0 +1,26 @@
+{
+  "name": "wen-gg/webman-migrations",
+  "type": "library",
+  "license": "MIT",
+  "description": "适用于 webman 的 doctrine/migrations 数据库迁移",
+  "keywords": [
+    "webman",
+    "migrations"
+  ],
+  "require": {
+    "vlucas/phpdotenv": "*",
+    "doctrine/migrations": "*",
+    "illuminate/support": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wengg\\WebmanMigrations\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "mosquito",
+      "email": "zwj1206_hi@163.com"
+    }
+  ]
+}
